@@ -11,8 +11,23 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<UserCard />
 			<Jumbotron />
+			<div className="container my-4">
+				<div className="row g-0 justify-content-center">
+					<div className="col-12 col-lg-3">
+						<UserCard />
+					</div>
+					<div className="col-12 col-lg-3">
+						<UserCard />
+					</div>
+					<div className="col-12 col-lg-3">
+						<UserCard />
+					</div>
+					<div className="col-12 col-lg-3">
+						<UserCard />
+					</div>
+				</div>
+			</div>
 		</>
 	)
 };
